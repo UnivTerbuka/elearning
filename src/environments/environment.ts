@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  loginUrl: "https://school.moodledemo.net/login/token.php",
+  wsUrl: "https://school.moodledemo.net/webservice/rest/server.php",
 };
 
 /*
